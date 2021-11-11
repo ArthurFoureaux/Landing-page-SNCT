@@ -1,62 +1,127 @@
 body{
     background-color: #445346;
 }
-div{
+.title{
+    font-family: 'Press Start 2P',  cursive;
+    font-style: #121914;
+    font-size: 4vh;
+}
+.description{
+    font-family: 'PT Mono',  cursive;
+    font-style: #121914;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+div#main{
     width: 1000px;
-    height: 500px;
+    height: 1200px;
     background-color: rgba(204, 241, 191);
     margin-top: 100vh;
     margin: auto;
     margin-top: 80px;
     border-radius: 20px;
 }
-aside#left{
-    width: 500px;
-    height: 450px;
+header#cabeçalho{
+    width: auto;
+    padding: 4vh 0;
+    border-bottom: 1px solid #445346;
+    padding-bottom: 8vh;
+}
+img#title{
+
+    width: 80vh;
+    padding-top: 6vh;
+    padding-left: 5vw;
     display: inline;
-    float: left;
-}
-aside#left h1{
-    font-family: 'Press Start 2P', cursive;
-    font-style: #121914;
-    font-size: 12pt;
-    position: relative;
-    text-align: center;
-    padding-top: 150px;
-    padding-left: 20px;
-}
-aside#left h2{
-    font-family: 'Press Start 2P', cursive;
-    font-style: #121914;
-    font-size: 10pt;
-    position: relative;
-    text-align: justify;
-    padding-left: 20px;
-    text-align: center;
-}
-aside#left h3{
-    font-family: 'Press Start 2P', cursive;
-    font-style: #121914;
-    font-size: 8pt;
-    position: relative;
-    text-align: center;
-    padding-left: 20px;
 
 }
-aside#right{
-    width: 400px;
-    height: 450px;
-    display: inline;
+img#logotecle{
+
+    padding-top: 8vh;
+    padding-right: 4vw;
+    width: 40vh;
     float: right;
-    padding-right: 10vh;
+    display: inline;
+   
+
 }
-aside#right img#meet{
-    width: 400px;
-    
+img#logoifmg{
+
+    padding-top: 4vh;
+    padding-right: 2vh;
+    width: 10vh;
+    float: right;
+    display: inline;
+
+}
+aside#oficina {
+    width: 1000px;
+    height: 300px;
+    display: block;
+    margin-top: 100px;
     
 }
-aside#right img#eng{
-    width: 100px;
-    margin-top: 10vh;
+img#imgofc{
+    width: 300px;
+    float: right;
+    position: relative;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+div#txtoficina{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+aside#mesa{
+    width: 1000px;
+    height: 500px;
+    display: block;
+   
+}
+img#imgmesa{
+    width: 300px;
+    float: left;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 40px;
     
 }
+div#txtmesa{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70px;
+    float: right;
+    display: inline;
+}
+aside#site{
+    width: 1000px;
+    height: 300px;
+    margin-top: -150px;
+}
+h1#ttsite{
+    font-family: 'Press Start 2P',  cursive;
+    color: #5a926a;
+    font-size: 4vh;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#logotec{
+    display: block;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8aaa8e;
+}
+
+
